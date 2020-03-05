@@ -36,7 +36,7 @@ describe Show do
 
   describe "::highest_rating" do
     it "returns the highest rating of all the TV shows" do
-      expect(Show.)highest_rating.to eq(10)
+      expect(Show.highest_rating).to eq(10)
     end
   end
 
